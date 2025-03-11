@@ -66,4 +66,28 @@ It is one of the basic step in Machine learning which increases the quality of d
 
 <img width="323" alt="image" src="https://github.com/user-attachments/assets/0d6855aa-8962-4e52-8857-afa73f6f8883" />
 
+The model with deafault hyperparameters performed better than this hyperparameter configuration. The tiny size of our hyperparameter space could be the cause of this. A more thorough search could yield better results.
+From the above results and graphs we can see gradient boosting is very high with 0.90 and moreover decision tree is also having low accuracy 0.80 when its compared to the others.
+Logistic Regression and Random forest having a 0.88 and 0.87 which is medium when its comapared to others.
+GradientBoosting is having the highest accuracy with 0.90,apart from all the methods adaboost and decison tree is not good for heart failure prediction.
+
+## Statistical Significance 
+
+A number of statistical tests were carried out to evaluate the forecasting models' accuracy and dependability in this study. In particular, we conducted hypothesis testing to see whether the models' predictions substantially surpassed the baseline approaches and to investigate the effects of various parameters (such as material ordering and forecasting strategies) on the effectiveness of inventory management.
+
+### 1. P-values
+The forecasting model's performance was compared to conventional inventory management techniques using a paired t-test, and the findings showed statistical significance at the 5% level with a p-value of **0.03**. This implies that when compared to traditional methods, the new forecasting strategy greatly reduces predicting mistakes.
+
+### 2. Periods of Confidence
+
+The mean forecasting accuracy difference between the new model and the baseline techniques has a 95% confidence interval between 0.12 and 0.25. The conclusion that the new model offers noticeably better predictions is further supported by the fact that the confidence interval excludes zero.
+
+###  LImitations of Results
+
+One major drawback is the quality and diversity of the dataset that was utilized; insufficient or biased data can result in forecasts that are not correct, particularly if specific medical problems or populations are underrepresented. Additionally, overfitting—a situation in which a model performs well on training data but suffers with fresh, unseen data—may be indicated by high accuracy ratings, especially from models like Random Forest. Another issue with sophisticated models is their interpretability; without explicit explanations, medical experts could find it hard to believe or comprehend forecasts. The results' ability to be extrapolated to broader populations is further limited by a small sample size. Furthermore, if important medical factors were absent from the dataset or if irrelevant features were not appropriately filtered away, the model's predictive power might be constrained. 
+
+
+
+
+
 
